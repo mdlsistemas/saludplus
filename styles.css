@@ -8,7 +8,7 @@ body {
 /* Hero section con imagen de fondo */
 .hero {
     height: 100vh;
-    background-image: url('img/1.png'); /* Ruta de la imagen en la carpeta 'img' */
+    background-image: url('img/1.jpg'); /* Ruta de la imagen en la carpeta 'img' */
     background-size: cover;
     background-position: center;
     position: relative;
@@ -33,6 +33,50 @@ body {
 .hero .container {
     position: relative;
     z-index: 2;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #ffffff !important;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-brand .salud {
+    color: #1c4587;
+    font-weight: bold;
+}
+
+.navbar-brand .plus {
+    color: #ff0000;
+    font-weight: bold;
+}
+
+.navbar-brand {
+    display: inline-block;
+}
+
+.navbar-brand .salud,
+.navbar-brand .plus {
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    color: #1c4587 !important;
+}
+
+.nav-link:hover {
+    color: #1c4587 !important;
+}
+
+.navbar-toggler {
+    border-color: #1c4587 !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%280, 119, 182, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
 }
 
 /* Botones con efecto 3D */
@@ -65,7 +109,7 @@ section {
 }
 
 .price {
-    color: #0077b6;
+    color: #1c4587;
     font-size: 24px;
     font-weight: bold;
 }
@@ -112,7 +156,7 @@ form .btn-3d {
 
 /* Footer */
 footer {
-    background: #023e8a;
+    background: #1c4587;
     color: #fff;
     padding: 20px;
     text-align: center;
